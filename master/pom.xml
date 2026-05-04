@@ -25,8 +25,8 @@
     <sakai.commons-httpclient.version>3.1</sakai.commons-httpclient.version>
     <sakai.commons-io.version>2.18.0</sakai.commons-io.version>
     <sakai.commons.lang.version>2.6</sakai.commons.lang.version>
-    <sakai.commons.lang3.version>3.17.0</sakai.commons.lang3.version>
-    <sakai.commons.fileupload.version>1.5</sakai.commons.fileupload.version>
+    <sakai.commons.lang3.version>3.18.0</sakai.commons.lang3.version>
+    <sakai.commons.fileupload.version>1.6.0</sakai.commons.fileupload.version>
     <sakai.commons-math3.version>3.6.1</sakai.commons-math3.version>
     <sakai.commons-text.version>1.13.0</sakai.commons-text.version>
     <sakai.commons-validator.version>1.7</sakai.commons-validator.version>
@@ -35,7 +35,7 @@
     <sakai.ehcache.groupId>net.sf.ehcache</sakai.ehcache.groupId>
     <sakai.ehcache.artifactId>ehcache-core</sakai.ehcache.artifactId>
     <sakai.ehcache.version>2.6.11</sakai.ehcache.version>
-    <sakai.opensearch.version>2.16.0</sakai.opensearch.version>
+    <sakai.opensearch.version>2.19.4</sakai.opensearch.version>
     <sakai.hibernate.version>5.6.15.Final</sakai.hibernate.version>
     <sakai.hikaricp.version>6.0.0</sakai.hikaricp.version>
     <sakai.httpclient.version>4.5.14</sakai.httpclient.version>
@@ -46,7 +46,7 @@
     <sakai.ignite.version>2.17.0</sakai.ignite.version>
     <sakai.ignite.spring.ext.version>2.0.0</sakai.ignite.spring.ext.version>
     <sakai.ignite.hibernate.version>5.3.0</sakai.ignite.hibernate.version>
-    <sakai.jackson.version>2.17.2</sakai.jackson.version>
+    <sakai.jackson.version>2.18.6</sakai.jackson.version>
     <sakai.jsoup.version>1.18.1</sakai.jsoup.version>
     <sakai.woodstox.version>7.0.0</sakai.woodstox.version>
     <sakai.stax2.version>4.2.1</sakai.stax2.version>
@@ -55,7 +55,7 @@
     <sakai.jstl.version>1.2</sakai.jstl.version>
     <sakai.lombok.version>1.18.38</sakai.lombok.version>
     <sakai.lucene.version>9.11.1</sakai.lucene.version>
-    <sakai.netty.version>4.1.112.Final</sakai.netty.version>
+    <sakai.netty.version>4.1.125.Final</sakai.netty.version>
     <sakai.node.version>v22.14.0</sakai.node.version>
     <sakai.org.json.version>20210307</sakai.org.json.version>
     <sakai.pluto.version>1.1.7</sakai.pluto.version>
@@ -64,18 +64,18 @@
     <sakai.openpdf.version>1.3.28</sakai.openpdf.version>
     <sakai.groovy.version>2.4.17</sakai.groovy.version>
     <sakai.simple-xml.version>2.7.1</sakai.simple-xml.version>
-    <sakai.spring.version>5.3.39</sakai.spring.version>
+    <sakai.spring.version>6.2.11</sakai.spring.version>
     <sakai.spring.data.commons.version>2.5.12</sakai.spring.data.commons.version>
     <sakai.spring.data.jpa.version>2.5.12</sakai.spring.data.jpa.version>
     <sakai.spring.data.rest.version>3.5.12</sakai.spring.data.rest.version>
-    <sakai.spring.security.version>5.7.14</sakai.spring.security.version>
+    <sakai.spring.security.version>6.2.8</sakai.spring.security.version>
     <sakai.spring.hateoas.version>1.5.6</sakai.spring.hateoas.version>
     <sakai.spring.plugin.version>2.0.0.RELEASE</sakai.spring.plugin.version>
-    <sakai.tika.version>3.0.0-BETA</sakai.tika.version>
-    <sakai.tomcat.version>9.0.104</sakai.tomcat.version>
-    <sakai.thymeleaf.version>3.0.15.RELEASE</sakai.thymeleaf.version>
+    <sakai.tika.version>3.2.2</sakai.tika.version>
+    <sakai.tomcat.version>9.0.117</sakai.tomcat.version>
+    <sakai.thymeleaf.version>3.1.5.RELEASE</sakai.thymeleaf.version>
     <sakai.velocity.version>1.6.4</sakai.velocity.version>
-    <sakai.log4j.version>2.24.3</sakai.log4j.version>
+    <sakai.log4j.version>2.25.4</sakai.log4j.version>
     <sakai.slf4j.version>1.7.36</sakai.slf4j.version>
     <sakai.poi.version>5.4.1</sakai.poi.version>
     <sakai.mockito.version>3.12.4</sakai.mockito.version>
@@ -91,7 +91,7 @@
     <handlebars4.version>4.4.0</handlebars4.version>
     <hamcrest.all.version>1.3</hamcrest.all.version>
     <junit.version>4.13.2</junit.version>
-    <sakai.nimbus.jose.jwt.version>9.37.2</sakai.nimbus.jose.jwt.version>
+    <sakai.nimbus.jose.jwt.version>9.37.4</sakai.nimbus.jose.jwt.version>
     <sakai.io.jsonwebtoken.version>0.11.5</sakai.io.jsonwebtoken.version>
 
     <!-- Sakai modules that are versioned separately -->
@@ -798,7 +798,7 @@
       <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
-        <version>1.10.1</version>
+        <version>1.11.0</version>
         <scope>provided</scope>
         <exclusions>
           <exclusion>
@@ -939,7 +939,7 @@
       <dependency>
         <groupId>org.hibernate.validator</groupId>
         <artifactId>hibernate-validator</artifactId>
-        <version>6.1.7.Final</version>
+        <version>6.2.0.Final</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -1083,7 +1083,7 @@
       <dependency>
         <groupId>com.sun.mail</groupId>
         <artifactId>jakarta.mail</artifactId>
-        <version>1.6.7</version>
+        <version>1.6.8</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -1178,7 +1178,7 @@
       <dependency>
         <groupId>org.codehaus.castor</groupId>
         <artifactId>castor</artifactId>
-        <version>1.1.2.1</version>
+        <version>1.2</version>
         <scope>provided</scope>
         <exclusions>
           <exclusion>
@@ -2377,7 +2377,7 @@
       <dependency>
         <groupId>com.hazelcast</groupId>
         <artifactId>hazelcast</artifactId>
-        <version>3.12.13</version>
+        <version>5.2.5</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -2407,7 +2407,7 @@
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
         <artifactId>xmlgraphics-commons</artifactId>
-        <version>1.5</version>
+        <version>2.11</version>
       </dependency>
       <dependency>
         <groupId>org.mariuszgromada.math</groupId>
